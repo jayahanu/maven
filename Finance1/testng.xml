@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+
   <test thread-count="1" name="Test">
   <parameter name="browser" value="CHROME"></parameter>
     <classes>
-      <class name="automation.Finance1.LinkTesting"/>
+      <class name="automation.Finance1.testng"/>
     </classes>
   </test> <!-- Test -->
   
-  <test thread-count="1" name="firefox test">
-  <parameter name="browser" value="firefox"></parameter>
-    <classes>
-      <class name="automation.Finance1.LinkTesting"/>
-    </classes>
-  </test> <!-- Test -->
-  
-  <test thread-count="1" name="ie Test">
-  <parameter name="browser" value="ie"></parameter>
-    <classes>
-      <class name="automation.Finance1.LinkTesting"/>
-    </classes>
-  </test> <!-- Test -->
-  
+ 
 </suite> <!-- Suite -->
