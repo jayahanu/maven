@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="89957" started-at="2018-05-16T10:33:06Z" finished-at="2018-05-16T10:34:36Z">
+  <suite name="Suite" duration-ms="247782" started-at="2018-05-18T07:43:40Z" finished-at="2018-05-18T07:47:47Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="89957" started-at="2018-05-16T10:33:06Z" finished-at="2018-05-16T10:34:36Z">
-      <class name="automation.Finance1.testng">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automation.Finance1.testng@6093dd95]" name="setUp" is-config="true" duration-ms="78896" started-at="2018-05-16T10:33:06Z" finished-at="2018-05-16T10:34:25Z">
+    <test name="Test" duration-ms="247782" started-at="2018-05-18T07:43:40Z" finished-at="2018-05-18T07:47:47Z">
+      <class name="automation.Finance1.dynamiclinktest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:automation.Finance1.dynamiclinktest@7cd62f43]" name="beforeClass" is-config="true" duration-ms="77594" started-at="2018-05-18T07:43:40Z" finished-at="2018-05-18T07:44:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[CHROME]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="customerLogin()[pri:0, instance:automation.Finance1.testng@6093dd95]" name="customerLogin" duration-ms="10933" started-at="2018-05-16T10:34:25Z" finished-at="2018-05-16T10:34:35Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:automation.Finance1.dynamiclinktest@7cd62f43]" name="f" duration-ms="170129" started-at="2018-05-18T07:44:57Z" finished-at="2018-05-18T07:47:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- customerLogin -->
-        <test-method status="PASS" signature="endProcess()[pri:0, instance:automation.Finance1.testng@6093dd95]" name="endProcess" is-config="true" duration-ms="1" started-at="2018-05-16T10:34:35Z" finished-at="2018-05-16T10:34:35Z">
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:automation.Finance1.dynamiclinktest@7cd62f43]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-05-18T07:47:47Z" finished-at="2018-05-18T07:47:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endProcess -->
-      </class> <!-- automation.Finance1.testng -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- automation.Finance1.dynamiclinktest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

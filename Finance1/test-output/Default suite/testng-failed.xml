@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.Finance1.testng">
+      <class name="automation.Finance1.dynamiclinktest">
         <methods>
-          <include name="setUp"/>
-          <include name="customerLogin"/>
-          <include name="endProcess"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- automation.Finance1.testng -->
+      </class> <!-- automation.Finance1.dynamiclinktest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
